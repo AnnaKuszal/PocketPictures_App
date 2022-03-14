@@ -1,0 +1,25 @@
+@import '../../../styles/settings.scss';
+
+.root {
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-evenly;
+
+  .icon {
+    padding: 8px;
+    font-size: 1rem;
+    color: $color-second;
+    background-color: $color-first;
+    width: 1.7rem;
+    height: 1.7rem;
+    line-height: 1.7rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: $transition;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+}
