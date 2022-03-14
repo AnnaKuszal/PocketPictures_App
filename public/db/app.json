@@ -1,0 +1,96 @@
+{
+  "hero": {
+    "heroImg": "images/pexels-photomix-company-212372.jpg",
+    "alt": "camera",
+    "subtitles": [
+      "Save your pictures",
+      "Find by category",
+      "Add to favorites"
+    ]
+  },
+  "categories": [
+    {"id": 1, "name": "ALL", "isActive": true},
+    {"id": 2, "name": "animals", "isActive": false},
+    {"id": 3, "name": "architecture", "isActive": false},
+    {"id": 4, "name": "landscapes", "isActive": false},
+    {"id": 5, "name": "people", "isActive": false}
+  ],
+  "images": [
+    { 
+      "id": 1,
+      "title": "Water between trees",
+      "url": "images/clear-body-of-water-between-trees.jpg",
+      "category": "landscapes",
+      "favorites": false
+    },
+    {
+      "id": 2,
+      "title": "Palais royal with columns",
+      "url": "images/facade-of-palais-royal-with-columns.jpg",
+      "category": "architecture",
+      "favorites": false
+    },
+    {
+      "id": 3,
+      "title": "Foxes in the wild",
+      "url": "images/foxes-in-the-wild.jpg",
+      "category": "animals",
+      "favorites": false
+    },
+    {
+      "id": 4,
+      "title": "Giraffes on the savannah",
+      "url": "images/giraffes-on-the-savannah.jpg",
+      "category": "animals",
+      "favorites": false
+    },
+    {
+      "id": 5,
+      "title": "Penguin on a beach",
+      "url": "images/little-penguin-on-a-beach.jpg",
+      "category": "animals",
+      "favorites": false
+    },
+    { "id": 6,
+      "title": "Mountains around the lake",
+      "url": "images/mountains-around-the-lake.jpg",
+      "category": "landscapes",
+      "favorites": false
+    },
+    {
+      "id": 7,
+      "title": "People at workplace",
+      "url": "images/people-at-workplace.jpg",
+      "category": "people",
+      "favorites": false
+    },
+    {
+      "id": 8,
+      "title": "Sunset over the sea",
+      "url": "images/sunset-over-the-sea.jpg",
+      "category": "landscapes",
+      "favorites": false
+    },
+    {
+      "id": 9,
+      "title": "White apartment building",
+      "url": "images/white-apartment-building.jpg",
+      "category": "architecture",
+      "favorites": false
+    },
+    {
+      "id": 10,
+      "title": "Young woman in a traditional ritual",
+      "url": "images/young-woman-in-a-traditional-ritual.jpg",
+      "category": "people",
+      "favorites": false
+    },
+    {
+      "id": 11,
+      "title": "Young woman with her daughter",
+      "url": "images/young-woman-with-her-daughter.jpg",
+      "category": "people",
+      "favorites": false
+    }
+  ]
+}
