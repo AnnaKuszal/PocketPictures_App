@@ -1,0 +1,49 @@
+@import '../../../styles/settings.scss';
+
+.root {
+  margin: 0;
+  padding: 2rem 2rem 0;
+  position: relative;
+  overflow: hidden;
+  
+  .bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  };
+
+  .subtitle {
+    padding: 10px 0;
+    color: $color-second;
+    text-align: center;
+    background-color: $background-light-violet;
+    border-radius: 10px;
+    box-shadow: $box-shadow-small;
+  }
+
+  .categoryBtnWrapper {
+    padding: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .imagesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 40px 0;
+
+    .filler {
+      padding: 10px;
+      height: 1px;
+      min-width: 250px;
+      flex-grow: 1;
+      flex-basis: 0;
+    }
+  }
+}
