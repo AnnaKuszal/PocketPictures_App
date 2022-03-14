@@ -1,0 +1,10 @@
+@import '../../../styles/settings.scss';
+
+.root {
+  padding: 10px 15px;
+  font-family: $font-first;
+  font-size: .85rem;
+  font-weight: 400;
+  color: $font-light;
+  background-color: $background-light-violet;
+}
